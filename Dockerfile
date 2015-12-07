@@ -20,6 +20,6 @@ ADD nginx.conf /etc/nginx/
 
 VOLUME ["/var/cache/nginx"]
 
-EXPOSE 80 443
+EXPOSE 80 443 8701
 
 CMD ["nginx", "-g", "daemon off;"]
